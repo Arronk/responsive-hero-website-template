@@ -127,8 +127,11 @@ header nav {
 }
 
 header nav li {
-  margin-left: 15px;
   font-size: 1.5rem;
+}
+
+nav li:nth-child(2) {
+  margin: 0 15px;
 }
 
 @media (max-width: 800px) {
